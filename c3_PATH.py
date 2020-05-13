@@ -145,4 +145,6 @@ def clearpath(board, origin, destination, in_check, empty):
         else:
             print('path: error')
     else:
-        print('path: obstruction error')
+        # print('path: obstruction error')
+        return False
+            
